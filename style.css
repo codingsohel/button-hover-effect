@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.center button{
+    width: 250px;
+    height: 60px;
+    outline: none;
+    border: 2px solid transparent;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.center button:hover{
+    background: none;
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
